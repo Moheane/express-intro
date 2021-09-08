@@ -10,7 +10,7 @@ app.set('view engine', 'handlebars')
 
 //routing
 app.get('/', function (req, res) {
-    res.send('Bill Settings WebApp ');
+    res.render('home');
 });
 
 //setting port
